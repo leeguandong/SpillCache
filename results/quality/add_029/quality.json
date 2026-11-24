@@ -1,0 +1,42 @@
+{
+  "sample_id": "add_029",
+  "instruction": "Add a set of colorful beach towels hanging over the railing on the right side of the pier.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.421897413221867,
+      "ssim": 0.21363424776136664,
+      "lpips": 0.7743826508522034
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 24.295133304240316,
+      "ssim": 0.9022487713863191,
+      "lpips": 0.08768488466739655
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.050212090355569,
+      "ssim": 0.15893847790949628,
+      "lpips": 0.7955094575881958
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 22.17259058340567,
+      "ssim": 0.8966062971816157,
+      "lpips": 0.07629690319299698
+    }
+  ]
+}

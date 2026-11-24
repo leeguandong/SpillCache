@@ -1,0 +1,7 @@
+torch>=2.1
+torchvision
+Pillow>=10
+numpy>=1.24
+scikit-image>=0.22
+lpips>=0.1.4
+# Supply a compatible QwenImageEditPlusPipeline diffusers checkout via --diffusers-path.

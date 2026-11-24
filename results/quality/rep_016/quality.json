@@ -1,0 +1,42 @@
+{
+  "sample_id": "rep_016",
+  "instruction": "Replace the race car in the image with a vintage bicycle.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 12.685438741366728,
+      "ssim": 0.21656840040636283,
+      "lpips": 0.816195011138916
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 16.49843774132933,
+      "ssim": 0.6273100017560441,
+      "lpips": 0.4296751022338867
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 12.305523079159858,
+      "ssim": 0.17159900289540042,
+      "lpips": 0.840132474899292
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 18.604761734466603,
+      "ssim": 0.7993128539400048,
+      "lpips": 0.17699575424194336
+    }
+  ]
+}

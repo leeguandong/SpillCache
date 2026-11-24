@@ -1,0 +1,42 @@
+{
+  "sample_id": "add_021",
+  "instruction": "Add an elegant chandelier in the center of the ceiling.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 10.66598433743624,
+      "ssim": 0.17678197986293795,
+      "lpips": 0.7169464230537415
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 34.89000491826801,
+      "ssim": 0.9712166747833302,
+      "lpips": 0.015942584723234177
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 10.549202121624859,
+      "ssim": 0.14165056751848676,
+      "lpips": 0.7382533550262451
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 25.222176815359315,
+      "ssim": 0.9059085280298277,
+      "lpips": 0.06090642884373665
+    }
+  ]
+}

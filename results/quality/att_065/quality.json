@@ -1,0 +1,42 @@
+{
+  "sample_id": "att_065",
+  "instruction": "Change the tiger's fur color to a deeper orange.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 10.260475648435516,
+      "ssim": 0.15301413598203378,
+      "lpips": 0.7194617986679077
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 17.326468888987407,
+      "ssim": 0.7110189462807813,
+      "lpips": 0.23048138618469238
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 10.335937254123682,
+      "ssim": 0.1214975149148357,
+      "lpips": 0.7445186376571655
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 24.2554971788986,
+      "ssim": 0.8796012907617077,
+      "lpips": 0.07104407250881195
+    }
+  ]
+}

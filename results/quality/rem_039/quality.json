@@ -1,0 +1,42 @@
+{
+  "sample_id": "rem_039",
+  "instruction": "Remove the yacht in the image.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.918196708661664,
+      "ssim": 0.4305771326600214,
+      "lpips": 0.6323786973953247
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 18.115633951246117,
+      "ssim": 0.7964245902494761,
+      "lpips": 0.17035210132598877
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.769744037594362,
+      "ssim": 0.3408094073568974,
+      "lpips": 0.6799435615539551
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 16.057393686818664,
+      "ssim": 0.7336772399959884,
+      "lpips": 0.1964271068572998
+    }
+  ]
+}

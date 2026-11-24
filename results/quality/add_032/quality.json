@@ -1,0 +1,42 @@
+{
+  "sample_id": "add_032",
+  "instruction": "Add a coffee cup on the table in the foreground.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.534446010358456,
+      "ssim": 0.20406350256033093,
+      "lpips": 0.8251419067382812
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 29.702893640252952,
+      "ssim": 0.9112159436691734,
+      "lpips": 0.038728710263967514
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.601619016632178,
+      "ssim": 0.15701853387413026,
+      "lpips": 0.8447195291519165
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 27.30837510089479,
+      "ssim": 0.8767285363838471,
+      "lpips": 0.10668089240789413
+    }
+  ]
+}

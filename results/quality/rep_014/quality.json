@@ -1,0 +1,42 @@
+{
+  "sample_id": "rep_014",
+  "instruction": "Replace the inflatable castle structure in the image with a modern skyscraper.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.670570105660914,
+      "ssim": 0.24187569924495977,
+      "lpips": 0.8510578870773315
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 11.253698470251303,
+      "ssim": 0.5047858172712135,
+      "lpips": 0.6702219843864441
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.515309512190788,
+      "ssim": 0.17342748385484977,
+      "lpips": 0.8673421144485474
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 16.72324577496567,
+      "ssim": 0.5817901255747967,
+      "lpips": 0.5562194585800171
+    }
+  ]
+}

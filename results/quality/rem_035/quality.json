@@ -1,0 +1,42 @@
+{
+  "sample_id": "rem_035",
+  "instruction": "Remove the person from the image while maintaining the background elements, such as lighting, stage, and microphone stand. Ensure that the background seamlessly fills in the space where the person was.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 28.36925492867069,
+      "ssim": 0.5212766256108975,
+      "lpips": 0.7833578586578369
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 37.53066231888766,
+      "ssim": 0.6530887402542388,
+      "lpips": 0.11103452742099762
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 23.391517910757198,
+      "ssim": 0.44950827174722424,
+      "lpips": 0.8594078421592712
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 30.006286622500994,
+      "ssim": 0.8318167279928238,
+      "lpips": 0.3130626082420349
+    }
+  ]
+}

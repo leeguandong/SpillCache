@@ -1,0 +1,42 @@
+{
+  "sample_id": "att_060",
+  "instruction": "Change the fur color to a light brown.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.868760933004967,
+      "ssim": 0.19621825112876454,
+      "lpips": 0.7564689517021179
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 37.73646795421499,
+      "ssim": 0.9907601438154338,
+      "lpips": 0.005080481991171837
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.729868583769818,
+      "ssim": 0.15645513515242845,
+      "lpips": 0.7791473865509033
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 28.072911187943493,
+      "ssim": 0.9369450925540925,
+      "lpips": 0.04673758149147034
+    }
+  ]
+}

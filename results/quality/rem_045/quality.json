@@ -1,0 +1,42 @@
+{
+  "sample_id": "rem_045",
+  "instruction": "Remove the pineapple.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 12.730276608284758,
+      "ssim": 0.2550773501373818,
+      "lpips": 0.7912922501564026
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 26.12922038812686,
+      "ssim": 0.9542764614911486,
+      "lpips": 0.06886377185583115
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 12.662622257385125,
+      "ssim": 0.18744886264596816,
+      "lpips": 0.8062191009521484
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 25.801206090167756,
+      "ssim": 0.9071424396718175,
+      "lpips": 0.1735030561685562
+    }
+  ]
+}

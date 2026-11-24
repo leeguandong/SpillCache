@@ -1,0 +1,42 @@
+{
+  "sample_id": "rep_003",
+  "instruction": "Replace the child in the image with a large pumpkin.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.844370303005864,
+      "ssim": 0.2519574621552619,
+      "lpips": 0.7845659852027893
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 15.10648056842405,
+      "ssim": 0.6542821105457883,
+      "lpips": 0.47779038548469543
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.538912717097634,
+      "ssim": 0.19186494126682474,
+      "lpips": 0.8222981095314026
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 21.74993924154394,
+      "ssim": 0.7297708500711227,
+      "lpips": 0.3475768566131592
+    }
+  ]
+}

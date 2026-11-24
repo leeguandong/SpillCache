@@ -1,0 +1,42 @@
+{
+  "sample_id": "add_031",
+  "instruction": "Add a deer grazing in the middle of the flower field.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 10.985734879609616,
+      "ssim": 0.2120726964009015,
+      "lpips": 0.7091882228851318
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 36.22507002875964,
+      "ssim": 0.9658089903382124,
+      "lpips": 0.014533236622810364
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 10.945896346436507,
+      "ssim": 0.16468853945732562,
+      "lpips": 0.7390771508216858
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 28.602636845392837,
+      "ssim": 0.9354653665935185,
+      "lpips": 0.04403474181890488
+    }
+  ]
+}

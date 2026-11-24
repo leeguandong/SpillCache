@@ -1,0 +1,42 @@
+{
+  "sample_id": "rep_002",
+  "instruction": "Replace the yacht in the image with a hot air balloon floating just above the ocean surface.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.028853895131885,
+      "ssim": 0.3371765453629593,
+      "lpips": 0.6414940357208252
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 9.886711077358207,
+      "ssim": 0.39821243718173016,
+      "lpips": 0.5322189331054688
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.38409438266593,
+      "ssim": 0.27750487680656205,
+      "lpips": 0.6806668639183044
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 16.067148377504225,
+      "ssim": 0.6687285917704426,
+      "lpips": 0.28480735421180725
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "sample_id": "rep_013",
+  "instruction": "Replace the husky in the image with a snow-covered pine tree.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 12.028160154819796,
+      "ssim": 0.4332345583176032,
+      "lpips": 0.6625784039497375
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 11.930596444181276,
+      "ssim": 0.5426408491152116,
+      "lpips": 0.49695220589637756
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.890200843468048,
+      "ssim": 0.3389557741368476,
+      "lpips": 0.7043914198875427
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 15.645707993298927,
+      "ssim": 0.5968782172002266,
+      "lpips": 0.37601885199546814
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "sample_id": "add_018",
+  "instruction": "Add a small sailboat floating near the end of the dock in the background, with its sails partially filled with wind.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.849269762860374,
+      "ssim": 0.20789042748034595,
+      "lpips": 0.7989028692245483
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 37.5888340400329,
+      "ssim": 0.9855798751387992,
+      "lpips": 0.008690946735441685
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.664547274392817,
+      "ssim": 0.15197232176053446,
+      "lpips": 0.8168389797210693
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 32.168125669511525,
+      "ssim": 0.9747198999615062,
+      "lpips": 0.02385515533387661
+    }
+  ]
+}

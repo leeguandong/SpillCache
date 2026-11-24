@@ -1,0 +1,42 @@
+{
+  "sample_id": "add_025",
+  "instruction": "Add a graceful swan swimming on the dance floor, near the center of the circular pattern.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 10.564259869965078,
+      "ssim": 0.1720868837428016,
+      "lpips": 0.7141255140304565
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 41.945201263650354,
+      "ssim": 0.9932820238889786,
+      "lpips": 0.002673120703548193
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 10.4166232817235,
+      "ssim": 0.1328451319318724,
+      "lpips": 0.7348911166191101
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 32.328212750586914,
+      "ssim": 0.9779933255973715,
+      "lpips": 0.02122316136956215
+    }
+  ]
+}

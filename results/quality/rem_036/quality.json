@@ -1,0 +1,42 @@
+{
+  "sample_id": "rem_036",
+  "instruction": "Remove the colorful floral-patterned hat from the image.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 17.520256265542578,
+      "ssim": 0.5928477949112936,
+      "lpips": 0.7438200116157532
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 21.71530644701566,
+      "ssim": 0.8860731202592134,
+      "lpips": 0.4962281882762909
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 15.395659078747528,
+      "ssim": 0.44260629577184,
+      "lpips": 0.7853716611862183
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 27.32394373204409,
+      "ssim": 0.8771423154149897,
+      "lpips": 0.5101273655891418
+    }
+  ]
+}

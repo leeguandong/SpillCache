@@ -1,0 +1,42 @@
+{
+  "sample_id": "rep_000",
+  "instruction": "Replace the cathedral in the image with a giant stack of colorful macarons in the same setting and lighting.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 12.870262928063452,
+      "ssim": 0.3614541124551763,
+      "lpips": 0.7178319692611694
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 14.448655188546965,
+      "ssim": 0.6469991943182539,
+      "lpips": 0.4689953327178955
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 12.531775091048331,
+      "ssim": 0.2693792291479626,
+      "lpips": 0.7437584400177002
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 19.006013110719447,
+      "ssim": 0.7288503065744676,
+      "lpips": 0.2981550395488739
+    }
+  ]
+}

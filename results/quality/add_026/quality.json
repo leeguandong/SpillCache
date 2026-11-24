@@ -1,0 +1,42 @@
+{
+  "sample_id": "add_026",
+  "instruction": "Add a cat sitting on the floor near the bottom right corner.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.947348546417624,
+      "ssim": 0.2518190438260101,
+      "lpips": 0.757596492767334
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 43.10871542780952,
+      "ssim": 0.9921723236516584,
+      "lpips": 0.0028349007479846478
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.70195982014295,
+      "ssim": 0.19013812963238486,
+      "lpips": 0.7848002910614014
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 25.667164895488792,
+      "ssim": 0.9377513812880102,
+      "lpips": 0.04653174802660942
+    }
+  ]
+}

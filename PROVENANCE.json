@@ -1,0 +1,12 @@
+{
+  "original_source_sha256": {
+    "scripts/run_lifting_fidelity.py": "9263178226e822c58623928d34f302baeb531bc1222eaa4bdce7a0430cc5fad8",
+    "scripts/run_endtoend_lift_quality.py": "ef09b442562c636f0784b4df9310c20b687e8ffb780c00e0f0a4d0533c709acc",
+    "scripts/summarize_lift_quality.py": "007adfc0cec5b29c71705cae32697dea6118fac2cf74cd36c82e116a1e3ce046",
+    "scripts/summarize_lifting_fidelity.py": "40f5ac46ea901b637e11ad6c87b078cb344696fe50fc5b92b956f12637dbcb16",
+    "spillcache/fidelity.py": "cb818e98361c8998134770c6bca1116e58bfc355f2d0e434195ebf65e94fef12"
+  },
+  "numeric_record_source": "Existing 24-example pilot records; filtered to K=0.25 without modifying metric values",
+  "scientific_function_changes": false,
+  "reproduced_here": "CPU aggregation only"
+}

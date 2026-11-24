@@ -1,0 +1,42 @@
+{
+  "sample_id": "add_024",
+  "instruction": "Add a snowmobile near the right edge of the frozen lake, close to the tree line.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.541719264227412,
+      "ssim": 0.20579440595902346,
+      "lpips": 0.8258299231529236
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 29.996201336502423,
+      "ssim": 0.9157657743451585,
+      "lpips": 0.03614209219813347
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.33922632457871,
+      "ssim": 0.15208802482167813,
+      "lpips": 0.8527504205703735
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 25.0669397164398,
+      "ssim": 0.8897016180953167,
+      "lpips": 0.06487052142620087
+    }
+  ]
+}

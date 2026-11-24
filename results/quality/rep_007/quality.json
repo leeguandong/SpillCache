@@ -1,0 +1,42 @@
+{
+  "sample_id": "rep_007",
+  "instruction": "Replace the animal in the image with a cat.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.023825673633656,
+      "ssim": 0.1886142583735699,
+      "lpips": 0.6907606720924377
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 13.42587845045733,
+      "ssim": 0.6144154717117508,
+      "lpips": 0.39132145047187805
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 11.061193206029776,
+      "ssim": 0.16091221599784722,
+      "lpips": 0.7091190218925476
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 21.06055048895568,
+      "ssim": 0.8175775315087677,
+      "lpips": 0.1367371529340744
+    }
+  ]
+}

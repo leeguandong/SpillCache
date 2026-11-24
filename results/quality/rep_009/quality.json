@@ -1,0 +1,42 @@
+{
+  "sample_id": "rep_009",
+  "instruction": "Replace the tiger in the image with a deer.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 11.050962497004665,
+      "ssim": 0.20626986611041995,
+      "lpips": 0.6887556314468384
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 15.926245570449451,
+      "ssim": 0.5326785133574926,
+      "lpips": 0.37901756167411804
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 10.990985474306022,
+      "ssim": 0.16344015187291283,
+      "lpips": 0.711692214012146
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 17.773845518512857,
+      "ssim": 0.698137740969964,
+      "lpips": 0.23592467606067657
+    }
+  ]
+}

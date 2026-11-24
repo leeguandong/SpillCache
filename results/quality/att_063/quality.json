@@ -1,0 +1,42 @@
+{
+  "sample_id": "att_063",
+  "instruction": "Change the motorcycle's body color to matte black.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 10.025151656115149,
+      "ssim": 0.1454904218502074,
+      "lpips": 0.6312801241874695
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 35.97502470364547,
+      "ssim": 0.97785740797737,
+      "lpips": 0.011034096591174603
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 10.163760312527504,
+      "ssim": 0.11387609896670242,
+      "lpips": 0.6523445844650269
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 31.048089322092377,
+      "ssim": 0.9675147721630886,
+      "lpips": 0.018944112583994865
+    }
+  ]
+}

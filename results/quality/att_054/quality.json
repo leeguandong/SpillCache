@@ -1,0 +1,42 @@
+{
+  "sample_id": "att_054",
+  "instruction": "Change the bird's blue feathers to a brighter shade of turquoise.",
+  "n_tokens": 4096,
+  "grid": 64,
+  "steps": 28,
+  "dense_last": 1,
+  "results": [
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "absolute",
+      "psnr_db": 12.397633241567906,
+      "ssim": 0.18192033548684242,
+      "lpips": 0.807827353477478
+    },
+    {
+      "K": 0.25,
+      "strategy": "edit",
+      "lift": "deviation",
+      "psnr_db": 18.558861963539176,
+      "ssim": 0.7546310631874545,
+      "lpips": 0.23793137073516846
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "absolute",
+      "psnr_db": 12.1911164791481,
+      "ssim": 0.15379071450052761,
+      "lpips": 0.8328785300254822
+    },
+    {
+      "K": 0.25,
+      "strategy": "checkerboard",
+      "lift": "deviation",
+      "psnr_db": 24.108872759910692,
+      "ssim": 0.8168167021726496,
+      "lpips": 0.17479771375656128
+    }
+  ]
+}
